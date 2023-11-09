@@ -1,0 +1,109 @@
+﻿<Page x:Class="educationn.Pages.AuthorizationPage"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:educationn.Pages"
+      mc:Ignorable="d" 
+      d:DesignHeight="450" d:DesignWidth="800"
+      Title="AuthorizationPage">
+
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="133*"/>
+            <ColumnDefinition Width="133*"/>
+            <ColumnDefinition Width="133*"/>
+            <ColumnDefinition Width="133*"/>
+            <ColumnDefinition Width="17*"/>
+            <ColumnDefinition Width="116*"/>
+            <ColumnDefinition Width="39*"/>
+            <ColumnDefinition Width="95*"/>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+        </Grid.RowDefinitions>
+        <TextBlock Grid.Column="2"
+   Grid.ColumnSpan="2"
+   Grid.Row="0"
+   Grid.RowSpan="1"
+   HorizontalAlignment="Center"
+   VerticalAlignment="Center"
+   Text="АВТОРИЗАЦИЯ"
+   FontSize="30"
+   Foreground="#FF5907A0"
+   FontStyle="Italic"/>
+        <TextBlock Grid.Column="1"
+   Grid.Row="2"
+   HorizontalAlignment="Left"
+   VerticalAlignment="Top"
+   Text="ЛОГИН"
+   FontSize="20"
+   Foreground="#FF5907A0"
+   Margin="10,28,0,0"
+   FontStyle="Italic"/>
+        <TextBox x:Name="LoginTB"
+ Grid.ColumnSpan="3"
+ HorizontalAlignment="Left"
+ VerticalAlignment="Top"
+ Padding="10 0 10 0"
+ Height="40"
+ Width="200"
+ FontSize="30"
+ Margin="77,16,0,0"
+ Grid.Row="3"
+ Background="#FF7161C5"/>
+        <TextBlock Grid.Column="3"
+   Grid.ColumnSpan="3"
+   Grid.Row="2"
+   HorizontalAlignment="Left"
+   VerticalAlignment="Top"
+   Text="ПАРОЛЬ"
+   FontSize="20"
+   Foreground="#FF5907A0"
+   Margin="130,28,0,0"
+   FontStyle="Italic"/>
+        <PasswordBox x:Name="PasswordTB"
+ Grid.ColumnSpan="4"
+ HorizontalAlignment="Right"
+ VerticalAlignment="Top"
+ Padding="10 0 10 0"
+ Height="40"
+ Width="200"
+ FontSize="20"
+ Grid.Column="3"
+ Margin="0,16,36,0"
+ Grid.Row="3"
+ Background="#FF7161C5"/>
+        <Button x:Name="LogBTN"
+Content="ВОЙТИ"
+FontSize="20"
+Grid.Column="4"
+Grid.ColumnSpan="4"
+Grid.Row="6"
+Height="50"
+Width="200"
+Click="LogBTN_Click"
+Margin="10,4,57,3"
+FontStyle="Italic"
+Background="#FF5907A0"/>
+        <Button x:Name="GuestBTN"
+Content="ВОЙТИ КАК ГОСТЬ"
+FontSize="20"
+Grid.Column="1"
+Grid.ColumnSpan="2"
+Grid.Row="6"
+Height="50"
+Width="200"
+Click="GuestBTN_Click"
+Margin="10,4,57,3"
+FontStyle="Italic"
+Background="#FF5907A0"/>
+    </Grid>
+</Page>

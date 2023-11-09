@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="9c6872114e6f481ab9e045bd77b19117" Name="Diagram1">
+        <EntityTypeShape EntityType="UchebkaModel.Academics" Width="1.5" PointX="0.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="UchebkaModel.Animal_Ziyatdinova" Width="1.5" PointX="2.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="UchebkaModel.Application" Width="1.5" PointX="7.5" PointY="3.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="UchebkaModel.Cafedra" Width="1.5" PointX="3" PointY="8.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="UchebkaModel.Control_Ziyatdinova" Width="1.5" PointX="0.75" PointY="3.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="UchebkaModel.Countries_Ziyatdinova" Width="1.5" PointX="4.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="UchebkaModel.Country" Width="1.5" PointX="9.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="UchebkaModel.Discipline" Width="1.5" PointX="5.25" PointY="3.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="UchebkaModel.Employee" Width="1.5" PointX="5.25" PointY="8" IsExpanded="true" />
+        <EntityTypeShape EntityType="UchebkaModel.Engineer" Width="1.5" PointX="7.5" PointY="6.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="UchebkaModel.Exzamen" Width="1.5" PointX="9.75" PointY="8.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="UchebkaModel.Faculty" Width="1.5" PointX="0.75" PointY="9" IsExpanded="true" />
+        <EntityTypeShape EntityType="UchebkaModel.Flowers_Ziyatdinova" Width="1.5" PointX="6.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="UchebkaModel.Prepod" Width="1.5" PointX="7.5" PointY="8.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="UchebkaModel.Specialization" Width="1.5" PointX="5.25" PointY="14.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="UchebkaModel.Student" Width="1.5" PointX="7.5" PointY="14.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="UchebkaModel.sysdiagrams" Width="1.5" PointX="9.75" PointY="3.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="UchebkaModel.Ucheniki" Width="1.5" PointX="11.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="UchebkaModel.Zav_cafedra" Width="1.5" PointX="7.5" PointY="11.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="UchebkaModel.Licium" Width="1.5" PointX="0.75" PointY="11.75" IsExpanded="true" />
+        <AssociationConnector Association="UchebkaModel.FK_Application_Discipline" ManuallyRouted="false" />
+        <AssociationConnector Association="UchebkaModel.FK_Cafedra_Faculty1" ManuallyRouted="false" />
+        <AssociationConnector Association="UchebkaModel.FK_Discipline_Cafedra" ManuallyRouted="false" />
+        <AssociationConnector Association="UchebkaModel.FK_Employee_Cafedra" ManuallyRouted="false" />
+        <AssociationConnector Association="UchebkaModel.FK_Specialization_Cafedra" ManuallyRouted="false" />
+        <AssociationConnector Association="UchebkaModel.FK_Exzamen_Discipline" ManuallyRouted="false" />
+        <AssociationConnector Association="UchebkaModel.FK_Engineer_Employee" ManuallyRouted="false" />
+        <AssociationConnector Association="UchebkaModel.FK_Exzamen_Employee" ManuallyRouted="false" />
+        <AssociationConnector Association="UchebkaModel.FK_Prepod_Employee" ManuallyRouted="false" />
+        <AssociationConnector Association="UchebkaModel.FK_Prepod_Employee1" ManuallyRouted="false" />
+        <AssociationConnector Association="UchebkaModel.FK_Zav_cafedra_Employee" ManuallyRouted="false" />
+        <AssociationConnector Association="UchebkaModel.FK_Exzamen_Student" ManuallyRouted="false" />
+        <AssociationConnector Association="UchebkaModel.FK_Student_Specialization" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
